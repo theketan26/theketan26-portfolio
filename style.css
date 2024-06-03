@@ -67,3 +67,13 @@ a:hover {
     border-color: #292825;
     border-style: solid;
 }
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p, a {
+        font-size: 18px;
+    }
+}
